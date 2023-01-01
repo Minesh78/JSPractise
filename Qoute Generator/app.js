@@ -1,5 +1,5 @@
 let quote = document.querySelector('.quote');
-let author = document.querySelector('.author');
+let authors = document.querySelector('.author');
 let button = document.querySelector('.btn');
 
 const quotes =[
@@ -38,8 +38,9 @@ const quotes =[
 
     button.addEventListener("click",function(){
 
-        let x = Math.floor(Math.random * quotes.length);
+        let x = Math.floor(Math.random() * quotes.length);
 
-        qoute.innerText = quotes[x].qoute;
-        author.innerText = quote[x].author;
-     })
+         quote.innerText = quotes[x].quote;
+         authors.innerText = quotes[x].author;
+      
+    })
