@@ -61,15 +61,14 @@ body{
     margin-top: 20px ;
     border-radius: 0.9rem;
     box-shadow: 0 0 10px;
-
+    cursor: pointer;
 }
 .btn :hover{
-    scale: 2px;
+    
     word-spacing: 2px;
 }
 .btn:active{
     background-color: #fff;
     color: black;
     
-   
 }
